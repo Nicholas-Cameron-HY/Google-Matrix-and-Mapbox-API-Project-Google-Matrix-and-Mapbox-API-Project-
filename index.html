@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>Syria Trip</title>
+
+	<link rel="stylesheet" href="style.css">
+
+	<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+	<meta name="description" content="Over one million Syrians have fled the region, travelling west through Europe. This application traces one of the most common routes taken by migrants last fall.">
+
+	<!-- Google Plus -->
+	<meta itemprop="name" content="The Trip Out of Syria">
+	<meta itemprop="description" content="Over one million Syrians have fled the region, travelling west through Europe. This application traces one of the most common routes taken by migrants last fall.">
+<!-- 	<meta itemprop="image" content="images/your_new_images/widetile.png">
+ -->
+
+<!-- 	<meta name="twitter:card" content="images/your_new_images/largetile.png">
+ --><meta name="twitter:title" content="The Trip Out Of Syria">
+	<meta name="twitter:description" content="Over one million Syrians have fled the region, travelling west through Europe. This application traces one of the most common routes taken by migrants last fall.">
+	<meta name="twitter:image:src" content="images/your_new_images/mediumtile.png">
+	
+	<meta property="og:title" content="The Trip Out of Syria" />
+	<meta property="og:type" content="article" />
+	<meta property="og:url" content="http://www.hellonicholascameron.com/syria" />
+<!-- 	<meta property="og:image" content="http://www.isittoolatenowtosaysorry.com/images/bestOne.png" />
+ -->	<meta property="og:description" content="Over one million Syrians have fled the region, travelling west through Europe. This application traces one of the most common routes taken by migrants last fall." /> 
+	<meta property="og:site_name" content="The Trip Out of Syria" />
+
+	<link rel="icon" type="image/png" href="images/your_new_images/favicon-32x32.png" sizes="32x32">
+
+	<link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Montserrat:400,700' rel='stylesheet' type='text/css'>
+	
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.4/mapbox.css' rel='stylesheet' />
+
+
+
+</head>
+<body>
+
+		<div class="wrapper">
+				<div id='map'></div>
+				<div id="story">
+						<div class="townContainer">
+							<h3 class="townName"> Placeholder City </h3>
+						</div>
+						<div class="bodytextContainer">
+							<div class="bodytext">
+							</div>
+						</div>
+						<div class="forwardSection">
+							<div class="forwardWrapper">
+								<button class="moveForwards">
+									<img src="images/whitebutton.svg" class="whiteArrow" alt="Click for arrow to next step">
+								</button>
+								<div id="generatedStats">
+									<h4 class="travelledDistance"></h4>
+								</div> 
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+	<div class="overlay">
+			<div class="overlayWrapper">
+				
+				<div class="overlayContent">	
+					<p> The unfolding <span class="overlayRed">refugee crisis</span> represents the largest emigration wave since the Second World War.</p>
+
+					<p> While most of those fleeing the violence in <span class="overlayRed">Syria, Afghanistan, Iraq and other countries</span> have sought refuge in neighbouring countries, <span class="overlayRed">over one million</span> others have ventured as far as Europe in their search for safety.</p>
+
+					<p> This website traces the route taken by <span class="overlayRed"> one Syrian family </span> for Germany last fall. The information is collected from first-person interviews with volunteers, journalists, and migrants.</p> 
+				</div>
+		
+
+				<div class="beginContainer">
+					<button class="overlayButton"> 
+						<h4> Begin </h4>
+					</button>
+				</div>
+			</div>
+	</div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+<script src='https://api.mapbox.com/mapbox.js/v2.4.0/mapbox.js'></script>
+
+<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.18.0/mapbox-gl.js'></script>
+
+<script src="script.js"></script>
+
+</body>
+</html>

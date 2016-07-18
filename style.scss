@@ -1,0 +1,510 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+
+p {
+	font-family: 'Libre Baskerville', serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body { 
+	padding:0;
+	margin: 0 auto;
+}
+
+.leaflet-container .leaflet-control-attribution {
+	visibility: hidden;
+}
+
+.leaflet-bottom .leaflet-left  {
+	visibility: hidden;
+}
+
+.mapbox-logo {
+	visibility: hidden;
+}
+
+.mapbox-logo-true:before {
+	visibility: hidden;
+}
+
+
+.leaflet-control-attribution.leaflet-compact-attribution:hover {
+	visibility: hidden;
+}
+.leaflet-control-attribution.leaflet-compact-attribution:hover:after {
+	visibility: hidden;
+
+}
+.leaflet-control-attribution {
+	visibility: hidden;
+}
+.leaflet-container .leaflet-control-attribution.leaflet-compact-attribution {
+	visibility: hidden;
+}
+.leaflet-control-attribution.leaflet-compact-attribution {
+	visibility: hidden;
+}
+
+.wrapper {
+	position: relative;
+	height: 100vh;
+}
+
+p {
+	font-family: 'Libre Baskerville', serif;
+}
+
+
+
+#map { 
+	width:70%;
+ 	position:absolute; 
+ 	top:0; 
+ 	bottom:0; 
+
+ 	}
+
+.overlay {
+		z-index: 99999999999999999;
+		top: 0px;
+		bottom: 0px;
+		left: 0px;
+		right: 0px;
+		position: absolute;
+		letter-spacing: 3px;
+		letter-spacing: 3px;
+		background: #2A2A2A;
+		padding: 60px;
+		display: flex;
+		flex-direction: column;
+		height: 100vh;
+
+
+
+	.overlayWrapper {
+		max-width: 990px;
+		margin: 0 auto;
+		
+	}
+}
+
+.overlayRed {
+	color: #E24848;
+}
+
+
+.overlayContent {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: column;
+		text-align: left;
+		padding: 10px 20px;
+	
+		p {
+			font-size: 20px;
+		    font-weight: lighter;
+		    color: whitesmoke;
+		    font-family: 'Libre Baskerville', serif;
+		    line-height: 2;
+		}
+}
+
+.beginContainer {
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	padding: 3%;
+
+}
+
+.overlayButton {
+	width: 250px;
+	margin: 0 auto;
+	padding: 10px;
+	background: white;
+	color: white;
+	text-transform: uppercase;
+	font-size: 14px;
+	background: firebrick;
+	border: none;
+	letter-spacing: 2px;
+	
+	h4 {
+		    font-family: 'Montserrat', sans-serif;
+		    padding: 10px;
+		    margin: 0;
+		    font-size: 20px;
+		
+	}
+}
+
+
+#story {
+ 	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	position: absolute;
+	right: 0;
+	top: 0;
+	background: #2A2A2A;
+	color: whitesmoke;
+	height: 100%;
+
+	width: 33%;
+	overflow: scroll;
+
+
+	#generatedStats {
+		display: flex;
+		margin: auto;
+		
+		h4 {
+			text-align: center;
+			font-size: 14px;
+			text-transform: uppercase;
+			letter-spacing: 1px;
+			color: whitesmoke;
+			margin: 0;
+		}
+
+	}
+
+	#storyContent {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: column;
+		color: black;
+		text-align: left;
+		justify-content: flex-start;
+	}
+}
+
+
+.bodytextContainer {
+	padding: 0px;
+	color: black;
+
+}
+
+.bodytext {
+  	background: whitesmoke;
+  	padding: 20px;
+  	line-height: 25px;
+  	font-size: 14px;
+  	display: -webkit-flex;
+  	display: -ms-flexbox;
+  	display: flex;
+  	flex-direction: column;
+  	justify-content: center;
+    height: calc(100vh - 180px);
+    overflow: scroll;
+}
+
+.forwardWrapper {
+	display: flex;
+	margin: auto;
+}
+
+
+.townContainer {
+	background: slategrey;
+	width: 100%;
+	max-height: 110px;
+
+	h3 {
+		 text-align: center;
+		 text-transform: uppercase;
+		 font-size: 22px;
+		 color: white;
+		 letter-spacing: 4px;
+		 max-width: 375px;
+		 display: flex;
+		 padding: 3%;
+		 justify-content: center;
+		 margin: 15px auto;
+
+	}
+		
+}
+
+.moveForwards {
+	position: relative;
+	width: 150px;
+	margin: 5px auto;
+	height: 70px;
+	border: none;
+	padding: 0px;
+	border-radius: 10px;
+	background: #2A2A2A;
+	bottom: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+
+	img {
+		width: 50px;
+	}
+}
+
+.forwardSection {
+	display: flex;
+	flex-direction: row;
+	margin: auto;
+	padding: 0 10px;
+	flex-shrink: 0;
+}
+
+
+
+
+	@media (max-width: 1060px) {
+
+		.overlay {
+			padding: 20px;
+		}
+
+		.forwardSection {
+			display: -webkit-flex;
+			display: -ms-flexbox;
+			display: flex;
+			flex-direction: row;
+			margin: auto;
+			padding: 0 10px;
+		}
+
+		#story {
+			width: 33%;
+		}
+	
+	
+	}
+
+
+
+
+	@media (max-width: 880px) {
+
+		.overlay {
+		
+		padding: 25px;
+		
+		}
+
+		// #story {
+		// 	width: 370px;
+		// }
+	
+
+		padding: 30px 20px;
+		}
+
+		.overlayContent p {
+		
+		font-size: 18px;
+	
+		}	
+
+		
+
+
+	@media (max-width: 780px) {
+
+		.overlay {
+	
+		padding: 10px;
+		
+		}
+
+		#story {
+			overflow: scroll;
+		}
+
+		.bodytext {
+		padding: 10px;
+		}
+
+		.beginContainer {
+		    margin: auto;
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    flex-direction: column;
+		    padding: 0px;
+		}
+		.overlayContent {
+		    display: -webkit-flex;
+		    display: -ms-flexbox;
+		    display: flex;
+		    -webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		    flex-direction: column;
+		    text-align: left;
+		    padding: 5px;
+		}
+	
+	    #story {
+	        width: 33%;
+	        display: -webkit-flex;
+	        display: -ms-flexbox;
+	        display: flex;
+	        -webkit-flex-direction: column;
+	        -ms-flex-direction: column;
+	        flex-direction: column;
+	        position: absolute;
+	        right: 0;
+	        top: 0;
+	        background: #2A2A2A;
+	        color: whitesmoke;
+	        height: 100vh;
+	        -webkit-justify-content: space-between;
+	        -ms-flex-pack: justify;
+	        justify-content: space-between;
+	    }
+
+	    .townContainer h3 {
+			font-size: 16px;
+	    }
+
+	
+		.overlayContent p {
+		    font-size: 18px;
+		    font-weight: lighter;
+		    color: whitesmoke;
+		    font-family: 'Libre Baskerville', serif;
+		    line-height: 2;
+	}	
+
+		.overlayButton h4 {
+			font-family: 'Montserrat', sans-serif;
+			padding: 10px;
+			margin: 0;
+			font-size: 16px;
+		}   
+
+
+}
+
+ 	@media (max-width: 580px) {
+
+
+	.overlay {
+		height: 100vh;
+		overflow: scroll;
+	}
+
+
+
+	.bodytext {
+		padding: 3%;
+		overflow-y: scroll;
+		height: 100%;
+
+
+		p {
+			margin: 5px;
+		}
+
+	}
+
+	.townContainer {
+		background: slategrey;
+		width: 100%;
+		padding: 3%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+		max-height: 100%;
+
+	}
+
+
+	.townContainer h3 {
+	    text-align: center;
+	    text-transform: uppercase;
+	    font-size: 22px;
+	    color: white;
+	    letter-spacing: 4px;
+	    max-width: 375px;
+	    padding: 4%;
+	}
+	#map {
+		display: block;
+		width: 100%;
+		visibility: hidden;
+	}
+
+	#story {
+		width: 100%;
+	    z-index: 9999999;
+	    height: auto;
+	}
+
+
+
+	.overlayContent {
+		padding: 0px;
+	}
+
+	.overlayContent p {
+	    font-size: 12px;
+	    font-weight: lighter;
+	    color: whitesmoke;
+	    font-family: 'Libre Baskerville', serif;
+	    line-height: 2;
+	    padding: 1px;
+	    max-width: 330px;
+	    text-align: center;
+	}
+
+	.overlayButton {
+		width:125px;
+	    margin: 0 auto;
+	    padding: 10px;
+	    background: white;
+	    color: white;
+	    text-transform: uppercase;
+	    font-size: 14px;
+	    background: firebrick;
+	    border: none;
+	    letter-spacing: 2px;
+	}
+
+	.overlayButton h4 {
+	    font-family: 'Montserrat', sans-serif;
+	    padding: 5px;
+	    margin: 0;
+	    font-size: 16px;
+	}
+
+	.beginContainer {
+		padding: 2%;
+	
+	}
+	
+	.forwardSection {
+	padding: 20px;
+	height: auto;
+	}
+
+	.overlay {
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		padding: 10%;
+		height: 100%;
+
+
+	}
+
+}
